@@ -1,22 +1,24 @@
-body{
-    /* 
+body {
+  /* 
     background-image: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     */
 
-    /*   código completo acima,abaixo é uma forma de deixar clean.
+  /*   código completo acima,abaixo é uma forma de deixar clean.
           Ordem: color->image->repeat->position->/size     */
 
-          background: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg) no-repeat top center /cover
-
-
+  background: url(./assets/Interface=Mobile\\ Theme=Dark\ mode.jpg) no-repeat
+    top center / cover;
 }
 
-#container{
+#container {
   width: 360px;
-  height: 712px; 
   border: 1px solid greenyellow;
   margin: auto;
+}
+
+#profile img {
+  width: 112px;
 }
