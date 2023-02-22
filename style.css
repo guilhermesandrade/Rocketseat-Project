@@ -9,8 +9,16 @@ body {
   /*   código completo acima,abaixo é uma forma de deixar clean.
           Ordem: color->image->repeat->position->/size     */
 
-  background: url(./assets/Interface=Mobile\\ Theme=Dark\ mode.jpg) no-repeat
+  background: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg) no-repeat
     top center / cover;
+
+}
+
+body *{
+
+  font-family: 'Inter', sans-serif;
+  color: white
+
 }
 
 #container {
@@ -19,6 +27,21 @@ body {
   margin: auto;
 }
 
+#profile{
+
+text-align: center;
+
+}
+
 #profile img {
+  
   width: 112px;
+
+}
+
+#profile{
+
+  font-weight: 500;
+  line-height: 24px;
+
 }
