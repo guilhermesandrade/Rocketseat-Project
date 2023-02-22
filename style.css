@@ -1,3 +1,10 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   /* 
     background-image: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg);
@@ -9,39 +16,36 @@ body {
   /*   código completo acima,abaixo é uma forma de deixar clean.
           Ordem: color->image->repeat->position->/size     */
 
-  background: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg) no-repeat
+    background: url(./assets/Interface=Mobile\,\ Theme=Dark\ mode.jpg) no-repeat
     top center / cover;
-
 }
 
 body *{
 
   font-family: 'Inter', sans-serif;
   color: white
-
 }
 
 #container {
   width: 360px;
   border: 1px solid greenyellow;
-  margin: auto;
+  margin: 56px auto 0;
 }
 
 #profile{
 
-text-align: center;
-
+  text-align: center;
+  padding: 24px;
 }
 
 #profile img {
   
   width: 112px;
-
 }
 
-#profile{
+#profile p{
 
   font-weight: 500;
   line-height: 24px;
-
+  margin-top: 8px;
 }
