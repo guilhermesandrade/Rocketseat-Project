@@ -11,5 +11,15 @@ function toggleMode() {
   
     --Forma simplificada abaixo--     */
 
-  html.classList.toggle('light')
+  html.classList.toggle("light")
+
+  /* Agora para trocar a imagem */
+
+  const img = document.queryselector("#profile img")
+
+  if (html.classList.contains("light")) {
+    img.setattribute("src", "./assets/avatar-light.png")
+  } else {
+    img.setattribute("src", "./assets/avatar.png")
+  }
 }
