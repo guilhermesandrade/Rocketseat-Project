@@ -47,6 +47,8 @@ body {
           Ordem: color->image->repeat->position->/size     */
 
   background: var(--bg-url) no-repeat top center / cover;
+
+  height: 100vh;
 }
 
 /* Fonte */
@@ -59,13 +61,11 @@ body * {
 /* Container */
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
   padding: 0 24px;
-  background: rgba(138, 43, 226, 0.2);
-  border-radius: 20px;
 }
-
 /* Profile */
 
 #profile {
@@ -200,4 +200,17 @@ footer a {
 }
 footer a:hover {
   background: var(--footer-color);
+}
+
+/* Media queries */
+
+@media (min-width:700px){
+
+  :root{
+    --bg-url: url(./assets/desktop\ dark.jpg);
+  }
+  .light{
+    --bg-url: url(./assets/desktop\ light.jpg);
+  }
+
 }
