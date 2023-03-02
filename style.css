@@ -74,6 +74,7 @@ body * {
 }
 
 #profile img {
+  height: 112px;
   width: 112px;
 }
 
@@ -106,18 +107,16 @@ body * {
 
   transform: translateY(-50%);
 
-  animation: slide-back 0.4s ;
+  animation: slide-back 0.4s;
 }
 
 .light #switch button {
-  
   animation: slide-in 0.4s forwards;
 }
 
-#switch button:hover{
-
-  outline:8px solid var(--highlight-color);
-  transition: outline 0.1s; 
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+  transition: outline 0.1s;
 }
 
 #switch span {
@@ -231,13 +230,10 @@ footer a:hover {
 }
 
 @keyframes slide-back {
-
-  from{
-
-    left:50%;
+  from {
+    left: 50%;
   }
-  to{
-
-    left:0;
+  to {
+    left: 0;
   }
 }

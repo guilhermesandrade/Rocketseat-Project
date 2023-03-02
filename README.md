@@ -7,7 +7,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>
   -
-  <a href="#-projeto">Projeto</a>
+  <a href="https://guilhermesandrade.github.io/Rocketseat-Project/" target="_blank">Projeto</a>
   -
   <a href="#-layout">Layout</a>
   -
@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O DevLinks é um agregador de links para usar como cartão de visitas online.<a href="https://guilhermesandrade.github.io/Rocketseat-Project/" target="_blank"> Ver Projeto</a>
 
 ## 📝 Layout
 
@@ -55,6 +55,6 @@ Esse projeto está sob a licença MIT.
 
 <br /> 
 <br />
-Feito com ♥ by Rocketseat
+Made with ♥ by Rocketseat
 
 [Participe da nossa Comunidade 💬](https://discord.gg/rocketseat)
