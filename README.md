@@ -7,9 +7,9 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>
   -
-  <a href="https://guilhermesandrade.github.io/Rocketseat-Project/" target="_blank">Projeto</a>
+  <a href="https://guilhermesandrade.github.io/Rocketseat-Project/">Projeto</a>
   -
-  <a href="#-layout">Layout</a>
+  <a href="https://www.figma.com/community/file/1187422022288947321">Layout</a>
   -
   <a href="#-memo-licença">Licença</a>
   </p>
