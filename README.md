@@ -55,8 +55,9 @@ Esse projeto está sob a licença MIT.
 
 <br /> 
 <br />
-Made with ♥ by Rocketseat
-
-[Participe da nossa Comunidade 💬](https://discord.gg/rocketseat)
+<p align="center">Made with ♥ by Rocketseat
+<br/>
+<a href="https://discord.gg/rocketseat">Participe da nossa Comunidade 💬</a>
+</p>
 
 ---
